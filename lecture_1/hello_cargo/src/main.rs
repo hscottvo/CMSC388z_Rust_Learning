@@ -1,6 +1,5 @@
 fn main() {
-    // println!("Hello, world!");
-    let my_tup: (i32, u64, u8) = (-5, 304, 60);
-    let (x, y, z) = my_tup;
-    println!("x: {}, y: {}, z: {}", x, y, z);
+    let arr: [i32; 5] = [1, 2, 3, 4, 5];
+    let arr_2: [i32; 5] = [3; 5];
+    println!("{:?}", &arr[0] + &arr_2[3]);
 }
