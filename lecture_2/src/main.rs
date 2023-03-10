@@ -1,6 +1,10 @@
 fn main() {
-    let s_literals = "hello";
-    let s1 = String::from(s_literals);
-    let s = &s1;
-    let s_slice = &s1[..];
+    // let mut v: Vec<i32> = Vec::new();
+    // v.push(5);
+    // v.push(6);
+    let mut v: Vec<i32> = vec![5, 6];
+
+    for val in &v {
+        println!("value: {}", val);
+    }
 }
